@@ -31,6 +31,8 @@ In Part 2, you will continue to:
 5. **Include Author Information:**
    - Add your GitHub username to the project to establish authorship.
 
+
+### Submission
 Follow these instructions to successfully complete each part of the lab and accomplish the specified objectives.
 
 Let's begin creating a centralized hub for knowledge sharing in the academic community!
