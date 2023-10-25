@@ -1,39 +1,42 @@
 # Academic Community Collaboration Platform - Part 2
 
-## Part 2: Project Development
+## Project Development
 
 In Part 2 of this lab, you will continue to build the Academic Community Collaboration Platform on GitHub.
 
 ### Objectives
-By the end of Part 2, you should be able to:
+In Part 2, you will continue to:
 
-1. Add specific content to your project's repository.
-2. Implement features like issue tracking, documentation, and collaboration tools.
-3. Promote open-source practices and community contributions.
-4. Organize webinars and seminars to engage the academic community.
+1. **Implement a Code of Conduct:** Set guidelines for community behavior within your project.
+2. **Create Contribution Guidelines:** Define how community members can contribute to your project.
+3. **Organize Project Folder and Files:** Organize your project folder and create necessary files.
+4. **Add Content to Files:** Populate your HTML and JavaScript files according to specific instructions.
+5. **Include Author Information:** Add your GitHub username to the project for proper attribution.
 
-### Lab Tasks
 
-1. **Add a Code of Conduct:**
-   - Implement a code of conduct for community behavior.
-   
-2. **Contribution Guidelines:**
-   - Create guidelines for community members on how to contribute to the project.
+## Lab Tasks
 
-3. **Project Folder and Files:**
-   - Organize your project folder with a specific name and create necessary files.
-   
-4. **Content Addition:**
-   - Add content to your HTML and JavaScript files as per the instructions.
-   
-5. **Author Information:**
-   - Include your GitHub username in the project.
+1. **Implement a Code of Conduct:**
+   - Define a code of conduct to guide community behavior in your project.
 
-### Submission
-Ensure you have saved the URLs for the files and configurations you create in Part 2.
+2. **Create Contribution Guidelines:**
+   - Provide guidelines for community members on how to contribute effectively to your project.
 
-Now, let's continue building the centralized hub for knowledge sharing in the academic community!
+3. **Organize Project Folder and Files:**
+   - Organize your project folder with a specific name and generate necessary files.
+
+4. **Add Content to Files:**
+   - Populate your HTML and JavaScript files based on the provided instructions.
+
+5. **Include Author Information:**
+   - Add your GitHub username to the project to establish authorship.
+
+Follow these instructions to successfully complete each part of the lab and accomplish the specified objectives.
+
+Let's begin creating a centralized hub for knowledge sharing in the academic community!
 
 Happy collaborating!
 
-Author: Nikesh Kumar
+## Author
+
+Nikesh Kumar
