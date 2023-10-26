@@ -126,7 +126,7 @@ To rebase your local changes on top of the remote changes:
 ```
 git pull --rebase origin maste
 ```
-<img src="./images/remote_origin_rebase.png" /> <br> <br>
+<img src="./images/remote-origin-rebase.png" /> <br> <br>
 
 - `Git Pull with Rebase`: The command `git pull --rebase origin master` fetches and updates changes.
 - `Clean Commit History`: It reorganizes your local commits for a clean, linear history.
@@ -189,7 +189,7 @@ git push -u origin master
 
 - Else, if it is `master`:
 
-<img src="./images/git-push%5Bmaster%5D.png" /> <br> <br>
+<img src="./images/git-push-master.png" /> <br> <br>
 
 
 You should be able to see the changes you pushed in, the remote repository:
