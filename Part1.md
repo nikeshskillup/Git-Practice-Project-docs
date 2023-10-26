@@ -28,12 +28,14 @@ Inside this project folder, create file named `contribution_guidelines.txt` whic
 <br>
 
 <FOLLOW SAME PROCESS AS EXERCISE 1 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
+<br>
 3. **Add a Remote Origin:**
    - Add the forked repo as a remote origin.
 
 <br>
 
 <follow same PROCESS AS EXERCISE 2 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
+<br>
 4. **Commit and Push to GitHub:**
    - Commit the code changes you've made and push them to your GitHub repository.
 
