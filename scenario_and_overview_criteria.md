@@ -1,11 +1,15 @@
 ## Scenario
 
-You are a senior professor at an academic institution and you are trying to create a centralized hub for researchers, scholars, and students to collaborate on projects, share resources, and contribute to the academic community's collective knowledge. 
+You are a senior professor at an academic institution and you are trying to create a centralized hub for students to collaborate on projects, share resources, and contribute to the academic community's collective knowledge. 
 In the rapidly evolving landscape of academia, collaboration and knowledge sharing play a pivotal role in advancing research and fostering intellectual growth. 
 This fosters a culture of open-access knowledge sharing and transparency within the academic community and to provide a platform for mentoring and skill development through collaborative coding and project management practices. 
 
+This Practice Project starts with the creation of a centralized hub for knowledge sharing and collaboration in your college. In order to test its effectiveness before making it Live to all students, you shall also assume the role of a student wherein you will follow Github commands and process to push your work to the centralized repository and collaborate effectively.
+
 
 ## Overview
+
+
 
 In Part 1, you will:
 
