@@ -44,6 +44,10 @@ I will always ensure compliance with our college rules and regulations.
 <FOLLOW SAME PROCESS AS EXERCISE 1 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
 <br>
 
+
+<img src="images/file-folder.png" />
+
+
 3. **Add a Remote Origin:**
 
 Open a new terminal and navigate to the `shipping_calculator/shipping_calculator-John_Doe-CS-S01-5` folder:
