@@ -1,6 +1,6 @@
 ## Scenario
 
-You are a student at a college and wish to contribute your project to the college.
+You are a student of Quantum College of Exploration and wish to contribute your project to the college.
 
 In the rapidly evolving landscape of academia, collaboration and knowledge sharing play a pivotal role in advancing research, and fostering intellectual growth. This fosters a culture of open-access knowledge sharing and transparency within the academic community. It also provides a platform for mentoring and skill development through collaborative coding and project management practices.
 
@@ -12,7 +12,7 @@ So, you are provided with a Common repository by your college which acts a Centr
 
 #### Part 1:
 
-1. You will fork the centrailzed repository in order to have your own separate repository as a student and a collaborator.
+1. You will fork the centrailzed repository of Quantum College of Exploration in order to have your own separate repository as a student and a collaborator.
 
 2. Then, you will add project folders and a contribution guideline file in the lab enviornment.
 
@@ -27,7 +27,7 @@ So, you are provided with a Common repository by your college which acts a Centr
 
 3. Further, you will commit and push these files to the locally created branch, and then merge them to the main/master branch.
 
-4. Finally, for contributing your project to the college you will raise a pull request from your forked repository to the original upstream repository (the centralized reposutory of the college from which you had created your fork).
+4. Finally, for contributing your project to the college you will raise a pull request from your forked repository to the original upstream repository (centralized repository of Quantum College of Exploration).
 > This pull request will further be closed or merged by the college authorities after they review it.
 
 5. You will do the same process for another Javascript project that you wish to contribute to the college as well.
