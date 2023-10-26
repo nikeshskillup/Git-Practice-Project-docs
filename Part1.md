@@ -4,7 +4,7 @@
 ## Lab Tasks
 
 1. **Clone the Centralized GitHub Repository:**
-   - Establish a new GitHub repository named "Centralised_knowledge-sharing_hub_ABC-05-College."
+   - Establish a new GitHub repository named "Centralised_knowledge-sharing_hub_ABC-05-College" .
 
 2. **Set up the project folders and Initial it with a Contribution Guidelines file**
 
