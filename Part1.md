@@ -45,9 +45,6 @@ I will always ensure compliance with our college rules and regulations.
 <br>
 
 
-<img src="images/file-folder.png" />
-
-
 3. **Add a Remote Origin:**
 
 Open a new terminal and navigate to the `/shipping_calculator` folder:
@@ -96,8 +93,6 @@ git remote add origin https://github.com/<Github username>/Centralized-repositor
 
 <br>
 
-<follow same PROCESS AS EXERCISE 2 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
-
 
 <br>
 
@@ -126,14 +121,25 @@ git remote -v
 
 - So here, it fetches changes from the GitHub repository `https://github.com/"Github username"/Centralized-repository_for_collaboration.git` and pushes the changes to the same repository.
 
+To rebase your local changes on top of the remote changes:
 
-- If the default branch in your repository is `main`, the command will be:
+```
+git pull --rebase origin maste
+```
+<img src="./images/remote_origin_rebase.png" /> <br> <br>
+
+- `Git Pull with Rebase`: The command `git pull --rebase origin master` fetches and updates changes.
+- `Clean Commit History`: It reorganizes your local commits for a clean, linear history.
+- `No Merge Commits`: This method avoids creating merge commits.
+
+
+If the default branch in your repository is `main`, the command will be:
 
 ```
 git push -u origin main
 ```
 
-- If it is `master`, the command will be:
+If it is `master`, the command will be:
 
 ```
 git push -u origin master
