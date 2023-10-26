@@ -1,17 +1,25 @@
 ## Scenario
 
-You are a senior professor at an academic institution and you are trying to create a centralized hub for students to collaborate on projects, share resources, and contribute to the academic community's collective knowledge. 
-In the rapidly evolving landscape of academia, collaboration and knowledge sharing play a pivotal role in advancing research and fostering intellectual growth. 
-This fosters a culture of open-access knowledge sharing and transparency within the academic community and to provide a platform for mentoring and skill development through collaborative coding and project management practices. 
+You are a student at a college and wish to contribute your project to the college.
 
-This Practice Project starts with the creation of a centralized hub for knowledge sharing and collaboration in your college. In order to test its effectiveness before making it Live to all students, you shall also assume the role of a student wherein you will follow Github commands and process to push your work to the centralized repository and collaborate effectively.
+In the rapidly evolving landscape of academia, collaboration and knowledge sharing play a pivotal role in advancing research and fostering intellectual growth.  This fosters a culture of open-access knowledge sharing and transparency within the academic community and to provide a platform for mentoring and skill development through collaborative coding and project management practices. 
+
+This Practice Project consists of 2 Parts:
+
+** Part 1:**
+
+You will fork the centrailzed repository in order to have your own separate repository as a student and a collaborator. You will add project folders and a contribution guideline file in the lab enviornment and push it to your repo. 
+
+** Part 2: **
+You will clone the forked repository which now has your project folders and the contrubituonb guideline file. You will create 2 branches for 2 projects - HTML and Javascript, that you wish to contribute to your college. You will commti and push these files first to the branch, and then to the main/master branch of your forked repo. 
+
+In order to contribute it to the college you will raise a pull request to the original upstream repository (the centralized reposutory of the college from which you had created your fork at the beginning). This pull request will further be closed by the college authorities after they review and find your project suitable for the college & academic community.
 
 
 ## Overview
 
 
-
-In Part 1, you will:
+** In Part 1, you will:  **
 
 Task 1. Set up a New GitHub Repository:
 Create a GitHub repository named  `Centralised_hub_for_knowledge_sharing--ABC-05-College` for your academic community project.
@@ -36,8 +44,9 @@ Add your remote GitHub repository as a remote origin.
 
 Commit & Push your project folder from the lab environment to it.
 
+<br>
 
-In Part 2, you will:
+** In Part 2, you will: **
 
 Task 4. Clone the repository to which you pushed your project folder.
 
@@ -62,17 +71,4 @@ Task 8. Create a branch named `Javascript`, push to it, and merge it to the `mai
 - Rest of the process is similar to Tasks 4 -7.
 
 ** LEANERS WILL PRACTICE WHAT THEY DID IN TASKS 4-7 HERE. Give commands & screenshots AS HIDDEN SECTIONS in instructions & ONLY the task requirement normally.
-
----------------------------------------------
-## COMMENTS - ONLY FOR REFERENCE
-Ask learners to create a repo - give them a specific. name  for the repo - Centralised hub for knowledge sharing - ABC College
- 
-- project folder with their project name and their name in the end with section name:  for eg Shipping Calculator - XYX-RollNumber - Section Name 
-In the project folder ask them tp create one shipping.html file and shipping.js file 
-In the shipping.html file ask them to add a piece of code...<html><body>  This is just for practice. Do not add code here. </body></html>
- 
-In the shipping.js file and add this code ...ask them to write a comment - This is the starting js file for my shipping calculator.
- 
-rest operations can be performed. - operations that are in the fp...do that on this
-
 
