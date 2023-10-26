@@ -50,10 +50,10 @@ I will always ensure compliance with our college rules and regulations.
 
 3. **Add a Remote Origin:**
 
-Open a new terminal and navigate to the `shipping_calculator/shipping_calculator-John_Doe-CS-S01-5` folder:
+Open a new terminal and navigate to the `/shipping_calculator` folder:
 
 ```
-cd shipping_calculator/shipping_calculator-John_Doe-CS-S01-5
+cd shipping_calculator
 ```
 
 Configure your Git user information:
