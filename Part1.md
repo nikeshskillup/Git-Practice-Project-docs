@@ -25,11 +25,14 @@ Your project folder's name should be: shipping_calculator-John_Doe-CS-S01-5.
 Inside this project folder, create file named `contribution_guidelines.txt` which defines how the student can contribute to your project.
 <GIVE TEXZT FOR THIS FILE TO LEANRERS IN ISNTUCTIONS.
 
+<br>
 
 <FOLLOW SAME PROCESS AS EXERCISE 1 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
 3. **Add a Remote Origin:**
    - Add the forked repo as a remote origin.
-   
+
+<br>
+
 <follow same PROCESS AS EXERCISE 2 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
 4. **Commit and Push to GitHub:**
    - Commit the code changes you've made and push them to your GitHub repository.
