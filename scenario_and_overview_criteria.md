@@ -3,6 +3,9 @@
 You are a student at a college and wish to contribute your project to the college.
 
 In the rapidly evolving landscape of academia, collaboration and knowledge sharing play a pivotal role in advancing research, and fostering intellectual growth. This fosters a culture of open-access knowledge sharing and transparency within the academic community. It also provides a platform for mentoring and skill development through collaborative coding and project management practices.
+
+So, you are provided with a Common repository by your college which acts a Centralized reource sharing hub for all students. 
+
 <br>
 
 #### This Practice Project consists of 2 Parts:
