@@ -76,8 +76,6 @@ You may get an output:
 
 <img src="./images/git-init.png" /> <br> <br>
 
-- Or, like this:
-<img src="./images/git-init-ALT.png" /> <br> <br>
 
 > Both mention that an empty Git repository has been initialized in the working directory.
 
