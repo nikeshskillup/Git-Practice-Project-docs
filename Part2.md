@@ -58,7 +58,7 @@
    ```
    git push --set-upstream origin my-local-updates
    ```
-   <img src="./images/pushed_to_branch-02.png" /> <br>
+   <img src="./images/pushed_to_my-local-updates.png" /> <br>
 
    **In this command:**
 
@@ -166,7 +166,7 @@ The `base repository` and the `base` fields pertain to the repository URL and br
 
 - Select the corresponding fields from the dropdown to `create pull request`
 
-   <img src="./images/create-pull-request.png" /> <br>
+   <img src="./images/create-pull-request-ui.png" /> <br>
 
 - Add a comment (`Final Project Submission to Centralized repository for collaboration`) & Click on `Create pull request`.
 
