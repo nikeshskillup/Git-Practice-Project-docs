@@ -1,44 +1,121 @@
-# Academic Community Collaboration Platform - Part 2
-
-## Project Development
-
-In Part 2 of this lab, you will continue to build the Academic Community Collaboration Platform on GitHub.
-
-### Objectives
-In Part 2, you will continue to:
-
-1. **Implement a Code of Conduct:** Set guidelines for community behavior within your project.
-2. **Create Contribution Guidelines:** Define how community members can contribute to your project.
-3. **Organize Project Folder and Files:** Organize your project folder and create necessary files.
-4. **Add Content to Files:** Populate your HTML and JavaScript files according to specific instructions.
-5. **Include Author Information:** Add your GitHub username to the project for proper attribution.
+### Part 1
 
 
 ## Lab Tasks
 
-1. **Implement a Code of Conduct:**
-   - Define a code of conduct to guide community behavior in your project.
+1. **Clone the Centralized GitHub Repository:**
+   Fork this empty GitHub repository for your academic project: 
+   ```
+   https://github.com/<YourUsername>/Centralized-repository_for_collaboration"
+   ```
 
-2. **Create Contribution Guidelines:**
-   - Provide guidelines for community members on how to contribute effectively to your project.
+2. Create a new branch in your repo named `branch-02`.
 
-3. **Organize Project Folder and Files:**
-   - Organize your project folder with a specific name and generate necessary files.
+HINT: Use the `git checkout` command.
 
-4. **Add Content to Files:**
-   - Populate your HTML and JavaScript files based on the provided instructions.
+<details>
 
-5. **Include Author Information:**
-   - Add your GitHub username to the project to establish authorship.
+<summary> 
+	Click here to view the solution 
+</summary>
+
+```
+git checkout -b branch-02
+```
+<img src="./images/new-branch-switch.png" /> <br> <br>
+
+> NOTE:  The `-b` flag  is used to create a new branch and switch to it. If the branch is already present, we can swtich to it without using the flag (For example: `git checkout branch-02`).
 
 
-### Submission
-Follow these instructions to successfully complete each part of the lab and accomplish the specified objectives.
+</details>
 
-Let's begin creating a centralized hub for knowledge sharing in the academic community!
+3. Verify that you are on the new branch by running the `git branch` command.
 
-Happy collaborating!
+<img src="./images/new-branch-confirmation.png" /> <br> <br>
 
-## Author
+4. Add and commit your changes with a different commit message.
 
-Nikesh Kumar
+<details>
+
+<summary>Click here to view the solution</summary>
+
+```
+git add .
+```
+
+- Please use a different commit message this time
+
+```
+git commit -m "further updates made for pushing to branch-02"
+```
+
+</details>
+
+
+5. Push the changes to `branch-02`
+
+```
+git push --set-upstream origin branch-02
+```
+<img src="./images/pushed_to_branch-02.png" /> <br>
+
+**In this command:**
+
+- `--set-upstream` : This option sets up a tracking relationship between the local branch [`branch-02`] , and the remote branch [`main` or `master`] on the remote repository. In future, when you run git push or git pull, Git will know to push or pull changes to or from `branch-02`.
+
+- `origin`: This is the name of the remote repository.
+
+- `branch-02`: This is the new branch to which you are pushing the changes.
+
+<br>
+
+#### In your Github repository:
+
+6. You would have received a Pull Request notification in your GitHub Repo (UI) - Click on the `Compare and pull request` notification.
+
+<img src="./images/pull-req-notification.png" /> <br> <br>
+
+7. Add a comment (this is optional) & Click on `Create pull request`.
+
+<img src="./images/create-pull-request.png" /> <br>
+
+- Since `branch-02	`and the master branch  belong to your Github account, you see the `base` and `compare` fields like this.
+
+<details>
+
+<br>
+
+<summary> <b> Click here to see the process when you are pushing from a branch on your Github account to a branch on another Github account. </b> </summary>
+
+-  Click on `compare across forks`
+
+<img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/images/compare-across-forks-01.png" /> <br>
+
+- You will get a page similar to this:
+
+<img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/images/compare-across-forks-02.png" /> <br>
+
+The `head repository` and the `compare` fields pertain to the repository URL and branch respectively on your Github account.
+
+The `base repository` and the `base` fields pertain to the repository URL and branch respectively of the Github account where you wish to raise a pull request.
+
+- Select the corresponding fields from the dropdown to create the pull request.
+
+</details>
+
+8. Click on merge pull request
+
+<img src="./images/merge-pull-request.png" /> <br>
+
+9. Click on `Confirm merge`.
+
+<img src="./images/confirm-merge-request.png" /> <br>
+
+10. The request once merged successfully can be seen as shown in the below screenshot:
+
+<img src="./images/merge--successful.png" /> <br>
+
+11. You can delete `branch-02` by clicking on `Delete branch`, since it is no longer required.
+
+<img src="./images/delete_branch-02.png" /> <br>
+
