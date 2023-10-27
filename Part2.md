@@ -3,7 +3,7 @@
 
 ## Lab Tasks
 
-1. **1. Fetch the repo having your updates in Part 1:**
+1. **Fetch the repo having your updates in Part 1:**
    Clone the repo to which you pushed your project folder & file in Part 1   
    ```
    https://github.com/<YourUsername>/Centralized-repository_for_collaboration"
