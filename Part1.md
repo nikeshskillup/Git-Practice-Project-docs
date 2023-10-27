@@ -41,7 +41,6 @@ I will always ensure compliance with our college rules and regulations.
 
 <br>
 
-<FOLLOW SAME PROCESS AS EXERCISE 1 OF PRACTICE PROJECT WE CREATED BEFORE THIS>
 <br>
 
 
@@ -72,12 +71,10 @@ git init
 ```
 You may get an output:
 
-- Either, like this:
+- Like this:
 
 <img src="./images/git-init.png" /> <br> <br>
 
-
-> Both mention that an empty Git repository has been initialized in the working directory.
 
 To add your newly created GitHub repository as a remote repository, run the below command by replacing "Github username" with your actual Github username
 
@@ -85,24 +82,20 @@ To add your newly created GitHub repository as a remote repository, run the belo
 git remote add origin https://github.com/<Github username>/Centralized-repository_for_collaboration.git
 ```
 > **NOTE:** Do not use the angular brackets < > when replacing your GitHub username in the above command.
-
+>Need to change image
 <img src="./images/adding-remote-origin.png" /> <br> <br>
-
-
-<br>
-
 
 <br>
 
 4. **Commit and Push to GitHub:**
-   - Commit the code changes you've made and push them to your GitHub repository.
+    Commit the code changes you've made and push them to your GitHub repository.
 
 ```
 git add .
 ```
 
 ```
-git commit -m "Added first.txt"
+git commit -m "Contibution Guideline commit"
 ```
 
 Check the remote origins by running:
@@ -110,7 +103,7 @@ Check the remote origins by running:
 ```
 git remote -v
 ```
-
+>Need to change image
 <img src="./images/remote_origin_fetch-and-pull.png" /> <br> <br>
 
 - `Fetch URL`: This is the URL that Git will use when fetching changes from the remote repository named "origin."
@@ -122,7 +115,7 @@ git remote -v
 To rebase your local changes on top of the remote changes:
 
 ```
-git pull --rebase origin maste
+git pull --rebase origin master
 ```
 <img src="./images/remote-origin-rebase.png" /> <br> <br>
 
