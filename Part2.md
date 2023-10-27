@@ -1,5 +1,6 @@
 # Academic Community Collaboration Platform - Part 2
 
+
 ## Lab Tasks
 
 1. **1. Fetch the repo having your updates in Part 1:**
@@ -71,44 +72,75 @@
 
 #### In your Github repository:
 
-5. **Raise Pull request to merge it to MAIN/MASTER branch of Your forked repo**
+5. **Raise Pull request to merge it to MAIN/MASTER branch of YOUR FORKED REPO**
 
-   <img src="./images/raise-pull-req.png" /> <br> <br>
+   You would have received a Pull Request notification in your GitHub Repo (UI) - Click on the `Compare and pull request` notification.
 
-   Add a comment (`Final Project Submission to Centralized repository for collaboration`) & Click on `Create pull request`.
+<img src="./images/pull-req-notification.png" /> <br> <br>
 
-   <img src="./images/create-pull-request.png" /> <br>
+   Add a comment (this is optional) & Click on `Create pull request`.
 
-   After clicking `Create pull request`, you'll see this interface. It means you have successfully submitted your project to your college's 'Centralized Repository for Collaboration' repo. Since you don't have the right to merge, you can only raise a pull request. Now it depends on your college whether to accept it or decline.
+<img src="./images/create-pull-request.png" /> <br>
 
-   <img src="./images/merge-pull-request.png" /> <br>
+- Since `my-local-updates	`and the master branch  belong to your Github account, you see the `base` and `compare` fields like this.
+
+   Click on merge pull request
+
+<img src="./images/merge-pull-request.png" /> <br>
+
+   Click on `Confirm merge`.
+
+<img src="./images/confirm-merge-request.png" /> <br>
+
+   The request once merged successfully can be seen as shown in the below screenshot:
+
+<img src="./images/merge--successful.png" /> <br>
 
 
 #### In Your lab Environment
 
-6. **Add, push & merge your 2nd file to the repo**
+**6. Add, push & merge your 2nd file to the repo:**
+
+   Follow a similar process as in steps 3, 4, and 5 for this second file:
+
+   Create a file named `Shipping_Calculator.js` in the project folder (e.g., `shipping_calculator-John_Doe-CS-S01-5`) with the following code:
+
+   ```javascript
+   // This JavaScript file is a part of my Shipping Calculator Project
+   ```
+
+   Add the file to your Git repository using:
+
+   ```
+   git add .
+   ```
+
+   Commit the changes with the message:
+
+   ```
+   git commit -m "Adding Shipping_Calculator.js file"
+   ```
+
+   Push the changes to the `my-local-updates` branch with:
+
+   ```
+   git push --set-upstream origin my-local-updates
+   ```
+
+   In your GitHub repository:
+
+   - Follow the steps for raising a pull request as mentioned in step 5.
+   - Click on "Merge pull request" when you're ready.
+   - Confirm the merge when prompted.
+
+Once the request is successfully merged, you will see it in your repository, as shown in the previous steps.
+
+That's it! You've successfully added, pushed, and merged your `Shipping_Calculator.js` file to your forked repository.
 
 
+7. **Raise PUll requests from the main/master branch of your FORKED REPO to the CENTRALIZED REPO**
 
-
-
-9. Click on `Confirm merge`.
-
-<img src="./images/confirm-merge-request.png" /> <br>
-
-10. The request once merged successfully can be seen as shown in the below screenshot:
-
-<img src="./images/merge--successful.png" /> <br>
-
-11. You can delete `my-project` by clicking on `Delete branch`, since it is no longer required.
-
-<img src="./images/delete_branch-02.png" /> <br>
-
-
-
-
-=================
-<summary> <b> Click here to see the process when you are pushing from a branch on your Github account to a branch on another Github account. </b> </summary>
+<b> pushing from a branch on your Github account to a branch on another Github account. </b> 
 
 -  Click on `compare across forks`
 
@@ -123,4 +155,22 @@ The `head repository` and the `compare` fields pertain to the repository URL and
 The `base repository` and the `base` fields pertain to the repository URL and branch respectively of the Github account where you wish to raise a pull request.
 
 - Select the corresponding fields from the dropdown to create the pull request.
+
+
+
+
+
+
+
+========
+   <img src="./images/raise-pull-req.png" /> <br> <br>
+
+   Add a comment (`Final Project Submission to Centralized repository for collaboration`) & Click on `Create pull request`.
+
+   <img src="./images/create-pull-request.png" /> <br>
+
+   After clicking `Create pull request`, you'll see this interface. It means you have successfully submitted your project to your college's 'Centralized Repository for Collaboration' repo. Since you don't have the right to merge, you can only raise a pull request. Now it depends on your college whether to accept it or decline.
+
+   <img src="./images/merge-pull-request.png" /> <br>
+
 
