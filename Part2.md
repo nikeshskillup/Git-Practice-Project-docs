@@ -84,7 +84,7 @@
 
 - Since `my-local-updates	`and the master branch  belong to your Github account, you see the `base` and `compare` fields like this.
 
-   Click on merge pull request
+   Click on `merge pull request`
 
 <img src="./images/merge-pull-request.png" /> <br>
 
@@ -140,7 +140,17 @@ That's it! You've successfully added, pushed, and merged your `Shipping_Calculat
 
 7. **Raise PUll requests from the main/master branch of your FORKED REPO to the CENTRALIZED REPO**
 
-<b> pushing from a branch on your Github account to a branch on another Github account. </b> 
+In order to contribute your project to the Centralized repository of college:
+
+Create a pull request from MAIN/MASTER branch of your forked repo to the Centralized repository of college: https://github.com/Sklup55/Centralized-repository_for_collaboration.git
+
+Since this is the cerntailzed repo, the college authorities have admin access to this and you can not merge directly to it. You can only raise pull request.
+
+Go to github repository click on `Pull requests` and `New pull request` 
+   <img src="./images/raise-new-pull-req.png" /> <br> <br>
+
+
+<b> Pushing from a branch on your Github account to a branch on another Github account. </b> 
 
 -  Click on `compare across forks`
 
@@ -154,23 +164,18 @@ The `head repository` and the `compare` fields pertain to the repository URL and
 
 The `base repository` and the `base` fields pertain to the repository URL and branch respectively of the Github account where you wish to raise a pull request.
 
-- Select the corresponding fields from the dropdown to create the pull request.
-
-
-
-
-
-
-<br> <br><br> <br><br> <br>
-========
-   <img src="./images/raise-pull-req.png" /> <br> <br>
-
-   Add a comment (`Final Project Submission to Centralized repository for collaboration`) & Click on `Create pull request`.
+- Select the corresponding fields from the dropdown to `create pull request`
 
    <img src="./images/create-pull-request.png" /> <br>
 
-   After clicking `Create pull request`, you'll see this interface. It means you have successfully submitted your project to your college's 'Centralized Repository for Collaboration' repo. Since you don't have the right to merge, you can only raise a pull request. Now it depends on your college whether to accept it or decline.
+- Add a comment (`Final Project Submission to Centralized repository for collaboration`) & Click on `Create pull request`.
 
-   <img src="./images/merge-pull-request.png" /> <br>
+   <img src="./images/open-pull-request.png" /> <br>
+
+After clicking `Create pull request`, you'll see this interface. It means you have successfully submitted your project to your college's 'Centralized Repository for Collaboration' repo. 
+
+   <img src="./images/success-pull-request.png" /> <br>
+   
+Once you send a pull request, it will be reivewed by the college authoirites for further action.
 
 
