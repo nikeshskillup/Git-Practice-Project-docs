@@ -9,8 +9,9 @@
    https://github.com/<YourUsername>/Centralized-repository_for_collaboration"
    ```
 
-2. **Create HTML File**
+2. **Create HTML File:**
    Inside the `Shipping_Calculator-John_Doe-CS-S01-5` project folder, create a HTML file named `Shipping_Calculator.html` and add basic HTML template.
+
 
 3. **Create a new branch in your repo named `my-project`.**
 
