@@ -82,8 +82,8 @@ To add your newly created GitHub repository as a remote repository, run the belo
 git remote add origin https://github.com/<Github username>/Centralized-repository_for_collaboration.git
 ```
 > **NOTE:** Do not use the angular brackets < > when replacing your GitHub username in the above command.
->Need to change image
 <img src="./images/adding-remote-origin.png" /> <br> <br>
+>Need to change image
 
 <br>
 
