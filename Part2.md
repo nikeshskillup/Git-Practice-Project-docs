@@ -1,5 +1,4 @@
-### Part 1
-
+# Academic Community Collaboration Platform - Part 2
 
 ## Lab Tasks
 
