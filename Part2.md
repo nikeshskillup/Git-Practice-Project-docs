@@ -149,22 +149,17 @@ Since this is the cerntailzed repo, the college authorities have admin access to
 Go to github repository click on `Pull requests` and `New pull request` 
    <img src="./images/raise-new-pull-req.png" /> <br> <br>
 
-
 <b> Pushing from a branch on your Github account to a branch on another Github account. </b> 
 
 -  Click on `compare across forks`
 
-<img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/images/compare-across-forks-01.png" /> <br>
+ <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/images/compare-across-forks-01.png" /> <br>
 
-- You will get a page similar to this:
+- The `head repository` and the `compare` fields pertain to the repository URL and branch respectively on your Github account.
 
-   <img src="./images/create-pull-request-ui.png" /> <br>
+- The `base repository` and the `base` fields pertain to the repository URL and branch respectively of the Github account where you wish to raise a pull request.
 
-The `head repository` and the `compare` fields pertain to the repository URL and branch respectively on your Github account.
-
-The `base repository` and the `base` fields pertain to the repository URL and branch respectively of the Github account where you wish to raise a pull request.
-
-- Select the corresponding fields from the dropdown to `create pull request`
+Select the corresponding fields from the dropdown to `create pull request`
 
    <img src="./images/create-pull-request-ui.png" /> <br>
 
