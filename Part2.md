@@ -158,7 +158,7 @@ Go to github repository click on `Pull requests` and `New pull request`
 
 - You will get a page similar to this:
 
-<img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/images/compare-across-forks-02.png" /> <br>
+   <img src="./images/create-pull-request-ui.png" /> <br>
 
 The `head repository` and the `compare` fields pertain to the repository URL and branch respectively on your Github account.
 
