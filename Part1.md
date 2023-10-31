@@ -1,191 +1,161 @@
-﻿### Part 1
+---
+markdown-version: v1
+tool-type: instructional-lab
+branch: lab-4078-instruction
+version-history-start-date: '2023-01-17T19:50:42Z'
+audio-timestamp-of-request-to-generate-wav: '2023-10-25T04:40:44Z'
+audio-file-url: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/2-final-project-ui-instructional.md.wav
+---
+# Part 1 - GitHub UI
 
 
-## Lab Tasks
+**Estimated Time:** 60 minutes
 
-1. **Fork the Centralized GitHub Repository:**
-   Fork this empty GitHub repository for your academic project: https://github.com/Sklup55/Centralized-repository_for_collaboration"
+## Scenario
 
-2. **Set up the project folders and Initial it with a Contribution Guidelines file**
+You recently got hired as a developer in a micro-finance startup with a mission to empower and provide opportunities to low income individuals. The core team currently uses Subversion (SVN) for managing code. They want to slowly move their code to Git. You are asked to host their sample code to calculate simple interest on GitHub in a new repository as the first step in this journey. You will not only host the script, but also follow best practices introduced in this course and create supporting documents for the open source project including code of conduct, and contributing guidelines. Additionally, the repository should be available to the community under the Apache License 2.0.
 
-In lab env <br>
-- Create project folder named `shipping_calculator`.
-- Inisde this, create another folder having project name, your name, department, section, roll no. 
+## Objectives
 
-Suppose your details are:
+After completing this lab, you will have demonstrated that you can:
 
-Name: John Doe <br>
-Deparatment: CS (Computer Science) <br>
-Section: S01<br>
-Roll no: 5
+1. Create a new repository in your GitHub account.
+2. Select an appropriate license for your project.
+3. Create main README.md markdown file that explains the purpose of the project.
+4. Create Code of Conduct markdown that explains how you want the community to behave and interact with each other.
+5. Create Contribution Guidelines markdown that tells the community how to contribute.
+6. Commit new file to the repository.
 
-Your project folder's name should be: `shipping_calculator-John_Doe-CS-S01-5`. 
-> Note: Ensure adhering to this nomencalture
+**Note:** Throughout this lab, you will be prompted copy and paste URLs into a notepad and save the notepad on your own device. These URLs will be uploaded for peer review in the Final Submission section of the course. You can use any notepad app to keep note of your URLs.
 
-Inside this project folder, create file named `contribution_guidelines.txt` which defines how the student can contribute to your project.
+## Task 1: Create a GitHub repository
 
-> Copy the below text and paste it in your file.
+1. Create a new GitHub repository called \"github-final-project\" and make sure that it is public.
 
-```
-Student Contribution Guidelines
+2. Select the **Add a README file** and **Choose a license** check boxes. Pick `Apache 2.0 License` from the drop down.
 
-Open Collaboration:
-As a student contributor, I commit to active and open collaboration, valuing diverse contributions within our college community.
+3. Click **Create repository**. Your repository is created and includes the README and LICENSE files. Now, you are ready to update your repository files to include useful information for your community.
 
-Clear Documentation:
-I'll provide clear code documentation in my projects.
+4. **Save the URL of the repository in a notepad to submit later for peer review.**
 
-Compliance:
-I will always ensure compliance with our college rules and regulations.
-```
+## Task 2: Add a license file
 
-<br>
+1. As part of Task 1, you picked a licence when creating the repository.
+2. Open the LICENSE.md file and **save the URL in a notepad to submit later for peer review.**
 
-<br>
+## Task 3: Update the README file
 
-
-3. **Add a Remote Origin:**
-
-Open a new terminal and navigate to the `/shipping_calculator` folder:
-
-```
-cd shipping_calculator
-```
-
-Configure your Git user information:
-
+Add the following information to the file:
 
 ```
-git config --global user.email "your-email@example.com"
+A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+
+Input:
+   p, principal amount
+   t, time period in years
+   r, annual rate of interest
+Output
+   simple interest = p*t*r
 ```
 
-```
-git config --global user.name "YourName"
-```
+**Save the URL of README.md file in a notepad to submit later for peer review.**
+
+Optional - You can continue to update the README file as you develop your project. You can find some ideas for useful README content from the following resources:
+
+- [Github README](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-readmes)
+- [Make a README](https://makeareadme.com)
+- [Awesome README](https://github.com/matiassingers/awesome-readme)
+
+## Task 4: Add a code of conduct
+
+A code of conduct helps set ground rules for the behavior of your project\'s participants. It defines standards for how to engage in a community.
+
+GitHub provides templates for common codes of conduct to help you quickly add one to your project. To add a code of conduct to your project, complete the following steps:
+
+1. Add a new file named `CODE_OF_CONDUCT.md` to the root folder of the repository. The **Choose a code of conduct template** button is displayed.
+   ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/labs/project/images/ui-lab-code-of-conduct.png)
+
+2. Click the **Choose a code of conduct template** button. On the left side of the page, multiple codes of conduct are listed.
+
+3. Click \"Contributor Covenant\" and then click **Review and submit** to add the file to your project.
+
+4. Scroll to the bottom of the page. Ensure that the radio button to commit directly to the main branch is selected and click **Commit new file**. Your project now contains a code of conduct.
+
+5. **Save the URL of CODE_OF_CONDUCT.md file in a notepad to submit later for peer review.**
+
+## Task 5: Add contribution guidelines
+
+The contribution guidelines tell project participants how to contribute to the project. To add contributions guidelines, complete the following steps:
+
+1. Create a new file named `CONTRIBUTING.md` in the root directory of the repository with the following information:
+
+   ```
+   All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+   ```
+
+2. Optionally, you can review the following guides for examples of contribution guidelines and update this file.
+
+- [Contributing to Legit Info, a Call for Code for Racial Justice Project](https://github.com/Call-for-Code-for-Racial-Justice/Legit-Info/blob/main/CONTRIBUTING.md)
+- [Contributing to OpenEEW](https://github.com/openeew/openeew/blob/master/CONTRIBUTING.md)
+- [Contributing to Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md)
+- [How to contribute to Ruby on Rails](https://github.com/rails/rails/blob/main/CONTRIBUTING.md)
+
+3. **Save the URL of CONTRIBUTING.md file in a notepad to submit later for peer review.**
+
+## Task 6: Host the script file
+
+1. Create a new file named `simple-interest.sh` in the root directory of the repository.
+
+2. Add the following code in the new file:
+
+   ```bash
+      #!/bin/bash
+      # This script calculates simple interest given principal,
+      # annual rate of interest and time period in years.
+
+      # Do not use this in production. Sample purpose only.
+
+      # Author: Upkar Lidder (IBM)
+      # Additional Authors:
+      # <your GitHub username>
+
+      # Input:
+      # p, principal amount
+      # t, time period in years
+      # r, annual rate of interest
+
+      # Output:
+      # simple interest = p*t*r
+
+      echo "Enter the principal:"
+      read p
+      echo "Enter rate of interest per year:"
+      read r
+      echo "Enter time period in years:"
+      read t
+
+      s=`expr $p \* $t \* $r / 100`
+      echo "The simple interest is: "
+      echo $s
+   ```
+
+3. **Save the URL of simple-interest.sh file in a notepad to submit later for peer review.**
+
+## Task 7: Add your GitHub username to the authors section
+
+1. Edit the `simple-interest.sh` file in GitHub editor using the pencil icon.
+
+2. Replace `<your GitHub username>` with your GitHub username.
+
+3. **You will be asked for the same GitHub username in the submission.**
+
+## Checklist
+
+Save your notepad file locally for use in your submission later in this course. Check that you have all 6 URLs noted.
+
+## Author(s)
+
+<h4> Upkar Lidder <h4/>
 
 
-Run the following command to initialize a new Git repository:
-
-```
-git init
-```
-You may get an output:
-
-- Like this:
-
-<img src="./images/git-init.png" /> <br> <br>
-
-
-To add your newly created GitHub repository as a remote repository, run the below command by replacing "Github username" with your actual Github username
-
-```
-git remote add origin https://github.com/<Github username>/Centralized-repository_for_collaboration.git
-```
-> **NOTE:** Do not use the angular brackets < > when replacing your GitHub username in the above command.
-<img src="./images/adding-remote-origin.png" /> <br> <br>
->Need to change image
-
-<br>
-
-4. **Commit and Push to GitHub:**
-    Commit the code changes you've made and push them to your GitHub repository.
-
-```
-git add .
-```
-
-```
-git commit -m "Contibution Guideline commit"
-```
-
-Check the remote origins by running:
-
-```
-git remote -v
-```
->Need to change image
-<img src="./images/remote_origin_fetch-and-pull.png" /> <br> <br>
-
-- `Fetch URL`: This is the URL that Git will use when fetching changes from the remote repository named "origin."
-
-- `Push URL`: This is the URL used when pushing changes to the remote repository.
-
-- So here, it fetches changes from the GitHub repository `https://github.com/"Github username"/Centralized-repository_for_collaboration.git` and pushes the changes to the same repository.
-
-To rebase your local changes on top of the remote changes:
-
-```
-git pull --rebase origin master
-```
-<img src="./images/remote-origin-rebase.png" /> <br> <br>
-
-- `Git Pull with Rebase`: The command `git pull --rebase origin master` fetches and updates changes.
-- `Clean Commit History`: It reorganizes your local commits for a clean, linear history.
-- `No Merge Commits`: This method avoids creating merge commits.
-
-
-If the default branch in your repository is `main`, the command will be:
-
-```
-git push -u origin main
-```
-
-If it is `master`, the command will be:
-
-```
-git push -u origin master
-```
-<br>
-
-> **NOTE:** In the past the default branch in your GitHub repo used the name master. Effective Oct 1. 2020, all new GitHub repositories use the more inclusive term main as the name of the default branch instead of master.
-
-#### Scenario 1: You may either have to follow the below process:
-
-- You will get the below pop-up in the Theia enviornment. Click on `Allow`.
-
-<img src="./images/allow_prompt.png" /> <br> <br>
-
->> NOTE: Please **ignore** this message as it is **not related to the git commands and does not affect the process**.
-
->> <img src="./images/ignore--theia_backend_msg.png" width="600" /> <br> <br>
-
-- You will get a prompt at the top.  Type your Github username and press `Enter`.
-
-<img src="./images/username_prompt.png" /> <br>
-
-
-- You will get another prompt at the top. Type your Github PAT (Personal access token) and press `Enter`.
-
-<img src="./images/PAT_prompt.png" /> <br> <br>
-
-
-#### Scenario 2: Or have to follow the below process:
-
-- You will get a prompt in the terminal.  Type your Github username and press `Enter`.
-
-<img src="./images/ALT-username_prompt.png" /> <br> <br>
-
-- You will get another prompt in the terminal. Type your Github PAT (Personal access token) and press `Enter`.
-
-<img src="./images/ALT--PAT_prompt.png" /> <br> <br>
-
-#### You may get either of these scenarios based on the Theia environment . Please follow the process accordingly.
-
-
-#### With this, your changes will be pushed successfully to the remote origin repository.
-
-- If the default branch in your repository is `main`:
-
-<img src="./images/git-push%5Bmain%5D.png" /> <br> <br>
-
-- Else, if it is `master`:
-
-<img src="./images/git-push-master.png" /> <br> <br>
-
-
-You should be able to see the changes you pushed in, the remote repository:
-
-<img src="./images/repo_updated--after_git-push.png" /> <br> <br>
-
-
-
+![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0131EN-SkillsNetwork/images/footerlogo.png)
